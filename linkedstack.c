@@ -21,7 +21,7 @@ void display(struct stack *);
 void main()
 {
 	int ch;int t=1;
-	while(1)
+	while(t)
 	{
 		printf("1.add\n2.pop\n3.display\n");
 		scanf("%d",&ch);
@@ -35,6 +35,8 @@ void main()
 				break;
 		default:printf("Wrong choice\n");
 		}
+		print("1.continue 2.terminate\n");
+		scanf("%d",&t):
 	}
 }
 struct stack *add(struct stack *top)
