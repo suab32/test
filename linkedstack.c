@@ -1,7 +1,7 @@
 /*
  ============================================================================
  Name        : linkedstack.c
- Author      : 
+ Author      : abhinav
  Version     :
  Copyright   : Your copyright notice
  Description : Hello World in C, Ansi-style
